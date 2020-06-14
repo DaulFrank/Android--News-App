@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".ContentDetailActivity"
+    android:scrollbars="none"
+    android:background="#fff"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/langIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/ocs" />
+        <RelativeLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="风景"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/mood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textColor="#000000"
+                android:text="By xxx"
+                android:textSize="24sp" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/caption"
+            android:paddingTop="20dp"
+            android:text="难忘今秋"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/content"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#504B50"
+            android:singleLine = "false"
+            android:textScaleX="1.2"
+            android:lineSpacingExtra="5dp"
+            android:text="又过深秋，枯瘦的空气里总是流淌着稍许萧瑟的味道。在这个静谧且肆意的季节里，我的思绪仿若这秋季光华里被吵醒的落叶，揉着惺忪的睡眼在风的纹络里茫然地漂浮着。
+       一首落叶的礼赞，一座城市的沦落。
+      在北方这座城市里，如果仔细观察，是可以看得见季节的转换的。匆忙的路人、街角的乞讨者、穿梭不停的车流、灯火辉煌的繁华夜景，它们即使占据了城市独有的风貌，我们也可以在抬头的瞬间，寻找到秋天的身影：一片秋高气爽的天空、一缕藏在城市温暖气流里的清冷空气、一街泛着枯容却又繁花似锦的落叶，这些都像是秋天带给我们的特色菜肴，被时光煮进了城市这口精美的大锅里。"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

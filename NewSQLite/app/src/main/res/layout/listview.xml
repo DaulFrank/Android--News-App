@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewSampleAdapterActivity"
+    android:background="#fff">
+    <TextView
+        android:paddingTop="20dp"
+        android:text="181164331杨澳"
+        android:gravity="center"
+        android:background="#F0B2AF"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/listView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
